@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aws-infringement"
+version = "0.0.1"
+description = "freelance job for AWS infringement"
+authors = ["jackwenyoung <dlwxxxdlw@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Scrapy = "^2.11.1"
+openpyxl = "^3.1.2"
+loguru = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
